@@ -1,4 +1,4 @@
-# Meu Aniversário - Projeto de Landing Page
+# Projeto de Landing Page - Atividade Prática
 
 Este é um projeto de landing page desenvolvido para colocar em prática o que foi aprendido no modulo 22 do Curso Front-end Da Ebac. O projeto utiliza Parcel, AOS e SCSS para criar uma experiência animada e estilizada.
 
