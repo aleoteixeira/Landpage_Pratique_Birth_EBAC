@@ -1,6 +1,6 @@
 # Meu Aniversário - Projeto de Landing Page
 
-Este é um projeto de landing page desenvolvido para celebrar meu aniversário no dia **02 de agosto**. O projeto utiliza Parcel, AOS e SCSS para criar uma experiência animada e estilizada.
+Este é um projeto de landing page desenvolvido para colocar em prática o que foi aprendido no modulo 22 do Curso Front-end Da Ebac. O projeto utiliza Parcel, AOS e SCSS para criar uma experiência animada e estilizada.
 
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura do site.
