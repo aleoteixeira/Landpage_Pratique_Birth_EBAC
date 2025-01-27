@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #608b9e); 
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('/src/images/birth.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 20px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 3em; 
+}
+
+.hero p {
+  font-size: 1.5em; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 40px 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, p {
+  color: #000000;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container-sobre {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sobre {
+  max-width: 60%;
+  text-align: center;
+}
+
+.imagem-sobre {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.container-curiosidades {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row-reverse;
+}
+
+.texto-curiosidades {
+  max-width: 60%;
+  text-align: center;
+}
+
+.imagem-curiosidades {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container-sobre, .container-curiosidades {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imagem-sobre, .imagem-curiosidades {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .texto-sobre, .texto-curiosidades {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-sobre, .container-curiosidades {
+    flex-direction: row;
+    text-align: left;
+  }
+  .imagem-sobre, .imagem-curiosidades {
+    width: 40%;
+  }
+  .texto-sobre, .texto-curiosidades {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container-sobre, .container-curiosidades {
+    flex-direction: row;
+    text-align: left;
+  }
+  .imagem-sobre, .imagem-curiosidades {
+    width: 30%;
+  }
+  .texto-sobre, .texto-curiosidades {
+    max-width: 60%;
+  }
+}
